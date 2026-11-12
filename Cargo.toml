@@ -1,0 +1,9 @@
+[package]
+name = "iris-decision-tree"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+linfa = "0.8.1"
+linfa-datasets = { version = "0.8.1", features = ["iris"] }
+linfa-trees = "0.8.1"
